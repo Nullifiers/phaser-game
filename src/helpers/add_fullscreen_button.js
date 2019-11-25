@@ -1,6 +1,7 @@
+import config from '../config';
+
 function addFullScreenButton(scene) {
-    const { width } = scene.sys.game.canvas;
-    const button = scene.add.rectangle(width - 16, 16, 16, 16, 0x333333);
+    const button = scene.add.rectangle(config.width - 16, 16, 16, 16, 0x333333);
     button.setInteractive();
 
     button.on('pointerup', () => {
