@@ -8,8 +8,5 @@ export default {
     playerSpeed: 300,
     playerJumpSpeed: 200,
 
-    platformHeight: 16,
-
-    portalWidth: 16,
-    portalHeight: 16
+    platformHeight: 16
 };
